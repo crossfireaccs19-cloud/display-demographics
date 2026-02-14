@@ -1,0 +1,36 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Display program header
+        Console.WriteLine("Demographics Program by [Jasper]");
+        Console.WriteLine();
+
+        // Define variables and assign example values
+        string studentID = "22685192";
+        string fullName = "Jasper P, Ranes";
+        string nickName = "jazz";
+        string gender = "Male";
+        string yearLevel = "2nd Year";
+        string homeLocation = "Uling City Of Naga";
+        string course = "Bachelor of Science in Information Technology";
+        string mobileNo = "09977485045";
+        string personalEmail = "crossfireaccs19@gmail.com";
+
+        // Display the information with labels
+        Console.WriteLine("Student ID      : " + studentID);
+        Console.WriteLine("Full Name       : " + fullName);
+        Console.WriteLine("Nick Name       : " + nickName);
+        Console.WriteLine("Gender          : " + gender);
+        Console.WriteLine("Year Level      : " + yearLevel);
+        Console.WriteLine("Home Location   : " + homeLocation);
+        Console.WriteLine("Course          : " + course);
+        Console.WriteLine("Mobile No.      : " + mobileNo);
+        Console.WriteLine("Personal Email  : " + personalEmail);
+
+        // End program
+        Console.ReadLine();
+    }
+}
