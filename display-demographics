@@ -5,18 +5,18 @@ class Program
     static void Main()
     {
         // Display program header
-        Console.WriteLine("Demographics Program by [Jasper]");
+        Console.WriteLine("Demographics Program by [Your Name]");
         Console.WriteLine();
 
         // Define variables and assign example values
         string studentID = "22685192";
-        string fullName = "Jasper P, Ranes";
-        string nickName = "jazz";
+        string fullName = "Jasper P Ranes";
+        string nickName = "Jazz";
         string gender = "Male";
         string yearLevel = "2nd Year";
-        string homeLocation = "Uling City Of Naga";
+        string homeLocation = "Uling City of Naga";
         string course = "Bachelor of Science in Information Technology";
-        string mobileNo = "09977485045";
+        string mobileNo = "+639977485045";
         string personalEmail = "crossfireaccs19@gmail.com";
 
         // Display the information with labels
